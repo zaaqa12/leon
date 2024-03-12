@@ -1,0 +1,288 @@
+
+
+body{
+    font-family: sans-serif;
+}
+
+
+nav{
+background: rgb(186, 172, 172);
+padding: 0px 60px;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+nav .container .logo{
+    user-select: none;
+
+} 
+nav .container .logo span {
+    color: blue;
+}
+
+nav .container .links{
+   
+    /* padding-left: 700px; */
+    
+
+}
+nav .container .links:hover {
+
+}
+nav .container .links ul{
+    list-style: none;
+    background: rgb(75, 70, 70);
+    height: 150px;
+    width: 200px;
+    /* color: white; */
+    position: absolute;
+    top: 53px;
+    right: 68px;
+    margin: 0;
+    padding: 0;
+    display: none;
+  
+
+}
+nav .container .links i {
+    padding-left: 60px;
+    font-size: 30px;
+  
+}
+nav .container .links:hover ul {
+    display: block;
+
+}
+nav .container .links ul li{
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+nav .container .links ul li a {
+   color: white;
+   text-decoration: none;
+   margin-top: 15px;
+
+}
+.section-1{
+    padding: 130px 0px;
+    text-align: center;
+    background-image: url(img\ leon.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-1 h2{
+    font-size:50px;
+    color: blue;
+ 
+
+}
+.section-1 p{
+    color: white;    
+   
+    font-size: 30px;
+}
+
+.section-2{
+    background: rgb(215, 205, 205);
+   
+    padding: 60px 60px;
+  
+
+}
+.section-2 .container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+   flex-wrap: wrap;
+}
+.section-2 .container .col{
+    border: 1px;
+    flex-basis: 30%;
+}
+@media (max-width: 991px) {
+    
+    .section-2 .container .col{
+        flex-basis: 45%;
+
+    }
+}
+@media (max-width: 767px) {
+    .section-2 .container .col{
+        flex-basis: 100%;
+        
+    }
+}
+.section-2 .container .col .icon{ 
+    font-size: 30px;
+    text-align: center;
+}
+.section-2 .container .col h2{
+    
+
+}
+.section-2 .container p{
+    text-align: center;
+}
+.section-3{
+    padding: 60px 60px;
+    text-align: center;
+    color: rgb(23, 23, 155);
+}
+.section-3 p{
+    color: green;
+    font-size: 20px;
+}
+.section-3 h2{
+    border-bottom: 4px solid green;
+    width: fit-content;
+    margin: 10px auto 40px
+
+}
+
+.section-4{
+    padding: 30px 30px;
+}
+.section-4 .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-4 .container .col{
+    flex-basis: 30%;
+}
+
+@media (max-width: 991px) {
+    .section-4 .container .col{
+        flex-basis: 45%;
+    }
+ .section-4 .container .col-1{
+    display: none;
+ }   
+}
+
+@media (max-width: 767px) {
+    .section-4 .container .col{
+        flex-basis: 100%;
+    }
+}
+.section-5 {
+    padding: 60px 60px;
+    /* text-align: center; */
+    background: rgb(245, 243, 243);
+}
+.section-5 .pp {
+    border-bottom: 4px solid green;
+    width: fit-content;
+    margin: 10px auto 40px
+
+}
+
+.section-5 .pp{
+    color: blue;
+    font-size: 30px;
+
+}
+.section-5 .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+.section-5 .container .col{
+    border: 1px solid white;
+    background: white;
+    /* margin-top: 15px; */
+    /* justify-content: space-between; */
+    flex-basis: 30%;
+}
+@media (max-width: 991px) {
+    .section-5 .container .col{
+        flex-basis: 45%;
+    }
+ .section-5 .container .col-1{
+    display: none;
+ }   
+}
+
+@media (max-width: 767px) {
+    .section-5 .container .col{
+        flex-basis: 100%;
+    }
+}
+.section-5 .container .col img{
+    /* width: 300px; */
+    width: 100%;
+    max-width: 100%;
+}
+.section-6{
+    padding: 0px 60px;
+    text-align: center;
+    
+}
+.section-6 h2{
+    font-size: 60px;
+    color: blue;
+    border-bottom: 4px solid green;
+    width: fit-content;
+    margin: 10px auto 40px
+
+}
+.section-6 .note{
+    font-size: 20px;
+   
+}
+
+.section-6 .container{ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.section-6 .container .col{
+    
+}
+@media (max-width: 991px) {
+    .section-6 .container .col{
+        flex-basis: 45%;
+    }
+ .section-6 .container .col-1{
+    display: none;
+ }   
+}
+
+@media (max-width: 767px) {
+    .section-6 .container .col{
+        flex-basis: 100%;
+    }
+}
+.section-6 .container .col img{
+    width: 300px;
+}
+.section-7 {
+    background: rgb(248, 245, 245);
+}
+
+.section-7 .container{
+    padding: 60px 60px;
+    text-align: center;
+}
+.section-7 .container h2{
+    font-size: 60px;
+    color: blue;
+    border-bottom: 4px solid green;
+    width: fit-content;
+    margin: 10px auto 40px
+}
+.copy{
+    text-align: center;
+    background: rgb(66, 60, 60);
+    padding: 50px 50px;
+    color: white;
+}
+
